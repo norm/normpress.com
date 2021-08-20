@@ -1,5 +1,5 @@
 resource "aws_route53_zone" "normpress" {
-  name    = "normpress.com"
+  name = "normpress.com"
 
   tags = {
     "Project" = "normpress"
@@ -7,7 +7,7 @@ resource "aws_route53_zone" "normpress" {
 }
 
 resource "aws_s3_bucket" "normpress" {
-  bucket  = "normpress"
+  bucket = "normpress"
 
   tags = {
     "Project" = "normpress"
